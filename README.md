@@ -51,8 +51,10 @@ You can use [POSTMAN](http://getpostman.com/), or if you have access to command 
 
 You should see the below logger in the window where you started up the mS. This indicates the message was published successfully.
 
-```2018-05-11 10:00:50.990  INFO 15976 --- [nio-8080-exec-3] o.a.kafka.common.utils.AppInfoParser     : Kafka version : 0.10.2.0
-2018-05-11 10:00:50.991  INFO 15976 --- [nio-8080-exec-3] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId : 576d93a8dc0cf421```
+```
+2018-05-11 10:00:50.990  INFO 15976 --- [nio-8080-exec-3] o.a.kafka.common.utils.AppInfoParser     : Kafka version : 0.10.2.0
+2018-05-11 10:00:50.991  INFO 15976 --- [nio-8080-exec-3] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId : 576d93a8dc0cf421
+```
 
 Also, you can see the messages you post in the consumer window you started earlier.
 
